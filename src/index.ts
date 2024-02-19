@@ -67,7 +67,7 @@ const schema = applyMiddleware(
     })
   );
   await new Promise<void>((resolve) =>
-    httpServer.listen({ port: 4002 }, resolve)
+    httpServer.listen({ port: 4003 }, resolve)
   );
   console.log(`🚀 Server ready at http://localhost:4000/graphql`);
 })();
